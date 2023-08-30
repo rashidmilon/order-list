@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.container {
+  width: 500px;
+  margin: 120px auto;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+ol {
+  list-style-type: decimal-leading-zero;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+ol ol {
+  list-style-type: upper-alpha;
+}
+
+ol ol ol {
+  list-style-type: upper-roman;
+}
+
+ol li {
+  color: blue;
+}
+
+ol ol li {
+  color: green;
+}
+
+ol ol ol li {
+  color: orangered;
+}
+
+li::marker {
+  color: black;
+}
